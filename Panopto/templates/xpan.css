@@ -1,0 +1,54 @@
+div.xpan_player {
+	background-position: 12px 12px;
+	background-repeat: no-repeat;
+	background-image: url(images/logo.png);
+	z-index: 10000;
+	position: relative;
+	background-color: black;
+	height: 480px;
+}
+
+#xpan_dimmer {
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	z-index: 500;
+	background-color: black;
+}
+
+.xpan_player_inner {
+	height: 480px;
+	width: 800px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-left: auto;
+}
+
+.xpan_iframe {
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.xpan_player_inner_3 {
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-left: auto;
+}
+
+p.xpan_click, img.xpan_click {
+	color: #03A;
+	cursor:pointer;
+	cursor:hand;
+}
+
+p.xpan_click:hover {
+
+	text-decoration: underline;
+
+}

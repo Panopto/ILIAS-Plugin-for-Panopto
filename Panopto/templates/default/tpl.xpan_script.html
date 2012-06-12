@@ -1,0 +1,34 @@
+<div id="xpan_dimmer" style="display:none"></div>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$('.xpan_click').click(function(){
+		
+		var classes;
+		var cls;
+		var id;
+		
+		classes =  $(this).attr('class');
+		cls = classes.split(" ");
+		id = cls[1]; 
+		
+		$('#xpan_dimmer').fadeTo(1000, 0.8);
+		$('.xpan_player').slideUp(1000);
+		$("#pl-"+id).slideDown(1000);
+		$('html,body').animate({scrollTop: $("#pl-"+id).offset().top}, 1000);
+	});
+	
+	$('#xpan_dimmer').click(function(){
+		$('#xpan_dimmer').fadeOut(1000);
+		$('.xpan_player').slideUp(1000);
+	});
+	
+	$(document).keyup(function(e){
+		if (e.keyCode == 27){ 
+			$('#xpan_dimmer').fadeOut(1000);
+			$('.xpan_player').slideUp(1000);
+		}
+	});
+ });
+
+</script>

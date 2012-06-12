@@ -1,0 +1,46 @@
+// 
+// English Language File for PanoptoObject Plugin
+//
+
+<!-- language file start -->
+obj_pano#:#Panopto
+objs_pano#:#Panoptos
+obj_pano_duplicate#:#Copy
+objs_pano_duplicate#:#Copy Panopto
+obj_pano_select#:#Select Panopto
+pano_add#:#Add Panopto
+pano_new#:#Add New Panopto
+pano_read#:#Read access to Panopto
+pano_write#:#Edit Panopto
+pano_delete#:#Delete Panopto
+pano_visible#:#Panopto is visible
+pano_edit_permission#:#Change permission settings
+crs_create_pano#:#Create Panopto
+grp_create_pano#:#Create Panopto
+fold_create_pano#:#Create Panopto
+root_create_pano#:#Create Panopto
+cat_create_pano#:#Create Panopto
+content#:#Content
+properties#:#Properties
+edit_properties#:#Edit Properties
+title#:#Title
+description#:#Description
+option_one#:#Option One
+option_two#:#Option Two
+save#:#Save
+cancel#:#Cancel
+edit#:#Edit
+status#:#Status
+offline#:#Offline
+panopto_plugin_configuration#:#Panopto Plugin Configuration
+setting_1#:#Setting 1
+setting_2#:#Setting 2
+saving_invoked#:#Save procedure has been executed. Please note that this Panopto does not save anything to DB.
+rep_robj_xpan_objs_xpan#:#Panopto Folder
+objs_xpan#:#Panopto Folder
+rep_robj_xpan_xpan_new#:#New Panopto
+xpan_new#:#New Panopto
+xpan_import#:#Import Panopto
+xpan_add#:#Add Panopto
+rep_robj_xpan_obj_xpan#:#Panopto Folder
+obj_xpan#:#Panopto Folder
